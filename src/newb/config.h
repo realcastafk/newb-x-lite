@@ -87,15 +87,15 @@
 #define NL_END_HORIZON_COL   vec3(0.6,0.02,0.6)
 
 /* Rainbow */
-//#define NL_RAINBOW           // [toggle] enable rainbow in sky
-//#define NL_RAINBOW_CLEAR 0.0 // 0.3 subtle ~ 1.0 bright during clear weather
-//#define NL_RAINBOW_RAIN  0.4 // 0.3 subtle ~ 1.0 bright during rain weather
+#define NL_RAINBOW           // [toggle] enable rainbow in sky
+#define NL_RAINBOW_CLEAR 0.0 // 0.3 subtle ~ 1.0 bright during clear weather
+#define NL_RAINBOW_RAIN  0.4 // 0.3 subtle ~ 1.0 bright during rain weather
 
 /* Ore glow intensity */
-//#define NL_GLOW_TEX 2.3           // 0.4 weak ~ 8.0 bright
-//#define NL_GLOW_SHIMMER 0.8       // [toggle] 0.1 subtle ~ 1.0 100% shimmer
-//#define NL_GLOW_SHIMMER_SPEED 0.9 // 0.5 slow - 2.0 fast
-//#define NL_GLOW_LEAK 0.6        // [toggle] 0.08 subtle ~ 1.0 100% brightness of NL_GLOW_TEX
+#define NL_GLOW_TEX 2.3           // 0.4 weak ~ 8.0 bright
+#define NL_GLOW_SHIMMER 0.8       // [toggle] 0.1 subtle ~ 1.0 100% shimmer
+#define NL_GLOW_SHIMMER_SPEED 0.9 // 0.5 slow - 2.0 fast
+#define NL_GLOW_LEAK 0.6        // [toggle] 0.08 subtle ~ 1.0 100% brightness of NL_GLOW_TEX
 
 /* Waving */
 #define NL_PLANTS_WAVE 0.09    // [toggle] 0.02 gentle ~ 0.4 violent
@@ -161,25 +161,25 @@
 #define NL_CLOUD3_SHADOW_OFFSET 0.3      // 0.05 minimal ~ 1.0 large
 
 /* Aurora settings */
-//#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
-//#define NL_AURORA_VELOCITY 0.03 // 0.0 static ~ 0.3 very fast
-//#define NL_AURORA_SCALE 0.04    // 0.002 large ~ 0.4 tiny
-//#define NL_AURORA_WIDTH 0.18    // 0.04 thin line ~ 0.4 thick lines
-//#define NL_AURORA_COL1 vec3(0.1,1.0,0.0)
-//#define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
+#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
+#define NL_AURORA_VELOCITY 0.03 // 0.0 static ~ 0.3 very fast
+#define NL_AURORA_SCALE 0.04    // 0.002 large ~ 0.4 tiny
+#define NL_AURORA_WIDTH 0.18    // 0.04 thin line ~ 0.4 thick lines
+#define NL_AURORA_COL1 vec3(0.1,1.0,0.0)
+#define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
 
-//#define NL_CLOUD_AURORA_REFLECTION // [toggle] simple clouds/aurora reflection
+#define NL_CLOUD_AURORA_REFLECTION // [toggle] simple clouds/aurora reflection
 
 /* Shooting star */
-//#define NL_SHOOTING_STAR 1.0        // [toggle] 0.2 dim ~ 1.0 bright
-//#define NL_SHOOTING_STAR_PERIOD 6.0 // 0.4 fast ~ 12.0 slow (12 secs)
-//#define NL_SHOOTING_STAR_DELAY 64.0 // 0.0 no delay ~ 100.0 long time (100 secs)
+#define NL_SHOOTING_STAR 1.0        // [toggle] 0.2 dim ~ 1.0 bright
+#define NL_SHOOTING_STAR_PERIOD 6.0 // 0.4 fast ~ 12.0 slow (12 secs)
+#define NL_SHOOTING_STAR_DELAY 64.0 // 0.0 no delay ~ 100.0 long time (100 secs)
 
 /* Galaxy */
-//#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
-//#define NL_GALAXY_VIBRANCE 0.7          // 0.0 white - 1.0 colorful
-//#define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
-//#define NL_GALAXY_DAY_VISIBILITY 0.0    // 0.0 invisible - 1.0 visible
+#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
+#define NL_GALAXY_VIBRANCE 0.7          // 0.0 white - 1.0 colorful
+#define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
+#define NL_GALAXY_DAY_VISIBILITY 0.0    // 0.0 invisible - 1.0 visible
 
 /* Chunk loading slide in animation */
 //#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
