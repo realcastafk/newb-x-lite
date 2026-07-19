@@ -66,29 +66,28 @@
 #define NL_CLOUDY_FOG 0.1         // [toggle] 0.0 subtle - 0.8 dense fog clouds
 
 /* Sky */
-#define NL_SKY_VOID_FACTOR     0.5
-#define NL_SKY_VOID_DARKNESS   0.3
-#define NL_SKY_RAIN_MIX_FACTOR 0.9
+#define NL_SKY_VOID_FACTOR     0.3
+#define NL_SKY_VOID_DARKNESS   0.15
+#define NL_SKY_RAIN_MIX_FACTOR 0.7
 
 /* Sky colors - zenith=top, horizon=bottom */
-#define NL_DAWN_ZENITH_COL   vec3(0.75,0.38,0.65)
-#define NL_DAWN_HORIZON_COL  vec3(1.85,0.75,0.30)
-#define NL_DAWN_EDGE_COL     vec3(1.95,0.95,0.65)
-#define NL_DAY_ZENITH_COL    vec3(0.25,0.58,1.20)
-#define NL_DAY_HORIZON_COL   vec3(0.65,0.85,1.15)
-#define NL_DAY_EDGE_COL      vec3(1.00,1.00,1.00)
+#define NL_DAWN_ZENITH_COL   vec3(0.82,0.52,0.78)
+#define NL_DAWN_HORIZON_COL  vec3(1.75,0.92,0.58)
+#define NL_DAWN_EDGE_COL     vec3(2.00,1.08,0.82)
+#define NL_DAY_ZENITH_COL    vec3(0.48,0.72,1.28)
+#define NL_DAY_HORIZON_COL   vec3(0.92,0.98,1.18)
+#define NL_DAY_EDGE_COL      vec3(1.18,1.18,1.18)
 #define NL_NIGHT_ZENITH_COL  vec3(0.08,0.04,0.18)
 #define NL_NIGHT_HORIZON_COL vec3(0.16,0.08,0.28)
 #define NL_NIGHT_EDGE_COL    vec3(0.28,0.18,0.40)
-#define NL_RAIN_ZENITH_COL   vec3(0.42,0.52,0.68)
-#define NL_RAIN_HORIZON_COL  vec3(0.62,0.70,0.82)
+#define NL_RAIN_ZENITH_COL   vec3(0.48,0.58,0.74)
+#define NL_RAIN_HORIZON_COL  vec3(0.72,0.80,0.92)
 
 #define NL_END_ZENITH_COL    vec3(0.18,0.00,0.28)
 #define NL_END_HORIZON_COL   vec3(0.50,0.12,0.65)
 
-
 /* Rainbow */
-#define NL_RAINBOW           // [toggle] enable rainbow in sky
+//#define NL_RAINBOW           // [toggle] enable rainbow in sky
 #define NL_RAINBOW_CLEAR 0.3 // 0.3 subtle ~ 1.0 bright during clear weather
 #define NL_RAINBOW_RAIN  0.3 // 0.3 subtle ~ 1.0 bright during rain weather
 
@@ -101,7 +100,7 @@
 /* Waving */
 #define NL_PLANTS_WAVE 0.03    // [toggle] 0.02 gentle ~ 0.4 violent
 #define NL_LANTERN_WAVE 0.16   // [toggle] 0.05 subtle ~ 0.4 large swing
-#define NL_WAVE_SPEED 3.0      // 0.5 slow wave ~ 5.0 very fast wave
+#define NL_WAVE_SPEED 4.0      // 0.5 slow wave ~ 5.0 very fast wave
 //#define NL_EXTRA_PLANTS_WAVE // [toggle] !dont use! wave using texture coords (1.21.0 vanilla 2048x1024)
 #define NL_WAVE_RANGE 13.0     // 6.0 upto 6 blocks ~ 32.0 upto 32 blocks away (slower)
 
